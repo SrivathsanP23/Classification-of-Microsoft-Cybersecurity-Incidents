@@ -15,7 +15,7 @@ This project, *Classification of Microsoft Cybersecurity Incidents*, aims to cla
 
 *Data Preprocessing*:
 
-➡️ loaded the dataset, cleaned it by handling missing values, and removed irrelevant columns.
+➡️ loaded the dataset, cleaned it by handling missing values, and removed irrelevant columns. <br>
 ➡️ applied OneHotEncoding to categorical features and scaled numerical features using StandardScaler with a ColumnTransformer.
 
 *Model Training*:
