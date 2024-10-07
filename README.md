@@ -12,15 +12,23 @@ This project, *Classification of Microsoft Cybersecurity Incidents*, aims to cla
 
 **Steps That I Followed** :
 
-*Data Preprocessing*:
+1. **Data Preprocessing** :
 
-➡️ loaded the dataset, cleaned it by handling missing values, and removed irrelevant columns. <br>
-➡️ applied OneHotEncoding to categorical features and scaled numerical features using StandardScaler with a ColumnTransformer.
+Loading the Dataset: Loaded the dataset from the source and explored its structure.
+Data Cleaning: Handled missing values by using appropriate imputation techniques and removed irrelevant columns to enhance model performance.
+Feature Encoding: Applied OneHotEncoding to categorical features to convert them into a suitable format for model training.
+Feature Scaling: Scaled numerical features using StandardScaler through a ColumnTransformer to ensure that all features contributed equally to the model.
 
-*Model Training*:
+2. **Exploratory Data Analysis (EDA)**:
+Statistical Testing:
+F-test: Conducted F-tests for categorical columns to assess the relationship between categorical features and the target variable. This helped in understanding which categorical features had significant effects on the severity of cybersecurity incidents.
+Z-test: Performed Z-tests for numerical columns to determine if the means of the different groups (based on the target variable) were statistically significantly different. This analysis guided feature selection and helped identify impactful numerical features.
 
-➡️ trained a Random Forest classifier and tuned its hyperparameters using GridSearchCV to improve performance.
 
-*Model Evaluation*:
+3. **Model Training**:
+Random Forest Classifier: Trained a Random Forest classifier on the preprocessed data to leverage its ensemble learning capabilities.
+Hyperparameter Tuning: Utilized GridSearchCV for hyperparameter tuning, optimizing parameters such as the number of estimators, maximum depth, and minimum samples required for splitting, to improve model performance.
 
-➡️ validated the model, achieving 94% accuracy on the training data and 88% accuracy on the test dataset.
+
+4. **Model Evaluation**:
+Validation: Evaluated the model on a validation set, achieving 94% accuracy on the training data and 88% accuracy on the test dataset. Metrics such as precision, recall, and F1-score were also calculated to assess the model's effectiveness.
