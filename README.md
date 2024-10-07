@@ -1,7 +1,8 @@
 ### Classification of Microsoft's CyberSecurity Threats
 
-🚀 Classification done using RandomForestClassifier
-
+```
+#### 🚀 Classification done using RandomForestClassifier
+```
 
 #### Dataset Link 
 🧑‍💻 - <a href="https://drive.google.com/drive/folders/18vt2lkf69MggXitrTSn9qnZ8s-ToeKcH" target=_blank>Data</a> 
@@ -40,5 +41,5 @@
 5. **Model Evaluation**:
 
 ➡️Validation: Evaluated the model on a validation set, achieving 94% accuracy on the training data and 88% accuracy on the test dataset. Metrics such as precision, recall, and F1-score were also calculated to assess the model's effectiveness.
-                                                                                                            🎯🎯🎯🎯🎯
+                                                                                                          
 <br><br>
