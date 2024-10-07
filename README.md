@@ -14,24 +14,24 @@ This project, *Classification of Microsoft Cybersecurity Incidents*, aims to cla
 
 1. **Data Preprocessing** :
 
-➡️Loading the Dataset: Loaded the dataset from the source and explored its structure. <br>
-➡️Data Cleaning: Handled missing values by using appropriate imputation techniques and removed irrelevant columns to enhance model performance. <br>
-➡️Feature Encoding: Applied OneHotEncoding to categorical features to convert them into a suitable format for model training. <br> 
-➡️Feature Scaling: Scaled numerical features using StandardScaler through a ColumnTransformer to ensure that all features contributed equally to the model. <br>
+➡️Loading the Dataset: Loaded the dataset from the source and explored its structure. <br><br>
+➡️Data Cleaning: Handled missing values by using appropriate imputation techniques and removed irrelevant columns to enhance model performance. <br><br>
+➡️Feature Encoding: Applied OneHotEncoding to categorical features to convert them into a suitable format for model training. <br><br> 
+➡️Feature Scaling: Scaled numerical features using StandardScaler through a ColumnTransformer to ensure that all features contributed equally to the model. <br><br>
 
 2. **Exploratory Data Analysis (EDA)**:
 
 
 *Statistical Testing*:
 
-➡️F-test: Conducted F-tests for categorical columns to assess the relationship between categorical features and the target variable. This helped in understanding which categorical features had significant effects on the severity of cybersecurity incidents. <br>
-➡️Z-test: Performed Z-tests for numerical columns to determine if the means of the different groups (based on the target variable) were statistically significantly different. This analysis guided feature selection and helped identify impactful numerical features.
+➡️F-test: Conducted F-tests for categorical columns to assess the relationship between categorical features and the target variable. This helped in understanding which categorical features had significant effects on the severity of cybersecurity incidents. <br><br>
+➡️Z-test: Performed Z-tests for numerical columns to determine if the means of the different groups (based on the target variable) were statistically significantly different. This analysis guided feature selection and helped identify impactful numerical features.<br><br>
 
 
 4. **Model Training**:
 
-➡️Random Forest Classifier: Trained a Random Forest classifier on the preprocessed data to leverage its ensemble learning capabilities.
-
+➡️Random Forest Classifier: Trained a Random Forest classifier on the preprocessed data to leverage its ensemble learning capabilities 🚀.
+<br>
 
 
 5. **Model Evaluation**:
