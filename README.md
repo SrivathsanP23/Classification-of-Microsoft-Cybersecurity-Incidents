@@ -17,7 +17,7 @@
 
 
 <h1>🎯 Project Overview:</h1> 
-<h3> 🧑‍💻 This project, *Classification of Microsoft Cybersecurity Incidents*, aims to classify cybersecurity incidents using machine learning. A Random Forest model was trained to predict incident severity based on features, achieving 94% accuracy during validation and 88% on the test dataset. The model is deployed for real-time predictions using an interactive Jupyter Notebook.</h3>
+<🧑‍💻 This project, *Classification of Microsoft Cybersecurity Incidents*, aims to classify cybersecurity incidents using machine learning. A Random Forest model was trained to predict incident severity based on features, achieving 94% accuracy during validation and 88% on the test dataset. The model is deployed for real-time predictions using an interactive Jupyter Notebook. >
 
 **Steps That I Followed** :
 
