@@ -9,9 +9,9 @@
 
 ![image](https://github.com/user-attachments/assets/2a1be153-e2e4-42d7-b197-f241274348ce)
 
-### Project Overview:
 
-<h1>🎯</h1> This project, *Classification of Microsoft Cybersecurity Incidents*, aims to classify cybersecurity incidents using machine learning. A Random Forest model was trained to predict incident severity based on features, achieving 94% accuracy during validation and 88% on the test dataset. The model is deployed for real-time predictions using an interactive Jupyter Notebook.
+<h1>🎯 Project Overview:</h1> 
+<h3> 🧑‍💻 This project, *Classification of Microsoft Cybersecurity Incidents*, aims to classify cybersecurity incidents using machine learning. A Random Forest model was trained to predict incident severity based on features, achieving 94% accuracy during validation and 88% on the test dataset. The model is deployed for real-time predictions using an interactive Jupyter Notebook.</h3>
 
 **Steps That I Followed** :
 
@@ -34,9 +34,11 @@
 4. **Model Training**:
 
 ➡️Random Forest Classifier: Trained a Random Forest classifier on the preprocessed data to leverage its ensemble learning capabilities 🚀.
-<br>
+<br><br>
 
 
 5. **Model Evaluation**:
 
 ➡️Validation: Evaluated the model on a validation set, achieving 94% accuracy on the training data and 88% accuracy on the test dataset. Metrics such as precision, recall, and F1-score were also calculated to assess the model's effectiveness.
+                                                                                                            🎯🎯🎯🎯🎯
+<br><br>
