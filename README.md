@@ -9,12 +9,6 @@
 🧑‍💻 - <a href="https://drive.google.com/drive/folders/18vt2lkf69MggXitrTSn9qnZ8s-ToeKcH" target=_blank>Data</a> 
 
 
-![image](https://github.com/user-attachments/assets/2a1be153-e2e4-42d7-b197-f241274348ce)
-
-
-
-![image](https://github.com/user-attachments/assets/e3821208-160b-492f-b4f7-9294147e50d2)
-
 
 <h1>🎯 Project Overview:</h1> 
 
