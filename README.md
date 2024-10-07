@@ -20,15 +20,18 @@ Feature Encoding: Applied OneHotEncoding to categorical features to convert them
 Feature Scaling: Scaled numerical features using StandardScaler through a ColumnTransformer to ensure that all features contributed equally to the model.
 
 2. **Exploratory Data Analysis (EDA)**:
-Statistical Testing:
+
+
+*Statistical Testing*:
+
 F-test: Conducted F-tests for categorical columns to assess the relationship between categorical features and the target variable. This helped in understanding which categorical features had significant effects on the severity of cybersecurity incidents.
 Z-test: Performed Z-tests for numerical columns to determine if the means of the different groups (based on the target variable) were statistically significantly different. This analysis guided feature selection and helped identify impactful numerical features.
 
 
-3. **Model Training**:
+4. **Model Training**:
 Random Forest Classifier: Trained a Random Forest classifier on the preprocessed data to leverage its ensemble learning capabilities.
 Hyperparameter Tuning: Utilized GridSearchCV for hyperparameter tuning, optimizing parameters such as the number of estimators, maximum depth, and minimum samples required for splitting, to improve model performance.
 
 
-4. **Model Evaluation**:
+5. **Model Evaluation**:
 Validation: Evaluated the model on a validation set, achieving 94% accuracy on the training data and 88% accuracy on the test dataset. Metrics such as precision, recall, and F1-score were also calculated to assess the model's effectiveness.
